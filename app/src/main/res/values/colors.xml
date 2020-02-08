@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- // Progetto a cura di Alessandro Tornusciolo
+     // Matricola 65566 -->
+
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="confirmGreen">#0BCD49</color>
+
+    <color name="blue_link">#0000EE</color>
+    <color name="nero_testi">#000000</color>
+
+    <color name="blueButton">#1388E3</color>
+
+</resources>

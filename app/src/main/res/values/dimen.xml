@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- // Progetto a cura di Alessandro Tornusciolo
+     // Matricola 65566 -->
+
+    <!-- Testi -->
+    <dimen name="text_height_title">40sp</dimen>
+    <dimen name="text_height_label_1">28sp</dimen>
+    <dimen name="text_height_label_2">16sp</dimen>
+    <dimen name="text_height_label_3">20sp</dimen>
+    <dimen name="text_height_field_1">24sp</dimen>
+    <dimen name="text_height_field_2">16sp</dimen>
+
+</resources>

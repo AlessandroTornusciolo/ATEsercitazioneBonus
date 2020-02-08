@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- // Progetto a cura di Alessandro Tornusciolo
+     // Matricola 65566 -->
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginHorizontal="12dp"
+    tools:context=".Login">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+
+    <TextView
+        android:id="@+id/login_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/view_title_login"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:textSize="@dimen/text_height_title"
+        android:textColor="@color/nero_testi"/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="70dp"/>
+
+    <TextView
+        android:id="@+id/login_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/login_username"
+        android:textSize="@dimen/text_height_label_1"
+        android:textColor="@color/nero_testi"/>
+
+
+    <EditText
+        android:id="@+id/login_username_field"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="@string/hint_username"
+        android:textSize="@dimen/text_height_field_1"/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="40dp"/>
+
+    <TextView
+        android:id="@+id/login_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/login_password"
+        android:textSize="@dimen/text_height_label_1"
+        android:textColor="@color/nero_testi"/>
+
+    <EditText
+        android:id="@+id/login_password_field"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:hint="@string/hint_password"
+        android:textSize="@dimen/text_height_field_1"/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="60dp"/>
+
+    <Button
+        android:id="@+id/button_accedi"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:background="@drawable/login_button"
+        android:text="@string/accedi"
+        android:textSize="@dimen/text_height_field_1"
+        android:textColor="#FFFFFF"/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="12dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text = "@string/registrati"
+        android:textSize="16sp"
+        android:textColor="@color/blue_link"
+        android:onClick="onClick"
+        android:clickable="true"
+        />
+
+    </LinearLayout>
+
+</ScrollView>

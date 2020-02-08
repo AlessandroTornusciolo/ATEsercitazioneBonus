@@ -1,0 +1,37 @@
+<resources>
+    <!-- // Progetto a cura di Alessandro Tornusciolo
+     // Matricola 65566 -->
+
+    <string name="app_name">Esercitazione Bonus</string>
+    <string name="view_title_login">Login</string>
+    <string name="view_title_register">Registrazione</string>
+    <string name="login_username">USERNAME</string>
+    <string name="hint_username">username</string>
+    <string name="login_password">PASSWORD</string>
+    <string name="hint_password">password</string>
+    <string name="accedi">Accedi</string>
+    <string name="registrati"><u>Nuovo utente? Registrati</u></string>
+
+    <string name="registrazione_username">Username:</string>
+    <string name="registrazione_password">Password:</string>
+    <string name="registrazione_conferma_password">Conferma Password:</string>
+    <string name="registrazione_hint_conferma_password">scrivi di nuovo la tua password</string>
+    <string name="registrazione_citta">Città di Provenienza:</string>
+    <string name="registrazione_hint_citta">inserisci la città di provenienza</string>
+    <string name="registrazione_data">Data di Nascita:</string>
+    <string name="registrazione_hint_data">inserisci la tua data di nascita</string>
+    <string name="button_registrati">Registrati</string>
+
+    <string name="stringa_benvenuto">Benvenuto</string>
+    <string name="home_tuoi_dati">I tuoi dati:</string>
+    <string name="home_citta">Citta:</string>
+    <string name="button_logout">Logout</string>
+    <string name="modifica_password">Modifica Password</string>
+
+    <string name="aggiorna_pass">Aggiorna Password</string>
+    <string name="home">Home</string>
+    <string name="nuova_pass">Nuova Password:</string>
+    <string name="conferma_nuova">Conferma Password:</string>
+    <string name="conferma">Password modificata con successo</string>
+
+</resources>
